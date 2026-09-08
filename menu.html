@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Menu — Kampala Bites | Burgers, Pizza, Chicken, Fries &amp; Drinks</title>
+<meta name="description" content="Browse the full Kampala Bites menu — burgers, pizza, chicken, fries, and drinks. Prices in UGX. Order on WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Ccircle cx='13' cy='13' r='12' fill='%23151009'/%3E%3Ccircle cx='13' cy='13' r='6' fill='%23FF8A3D'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true"><circle cx="13" cy="13" r="12" stroke="#FF8A3D" stroke-width="2"/><path d="M8 13c0-3 2-5 5-5s5 2 5 5-2 5-5 5-5-2-5-5z" fill="#FFB86B"/></svg>
+      Kampala Bites
+    </a>
+    <div class="nav-links">
+      <a href="menu.html" class="active">Menu</a>
+      <a href="index.html#popular">Popular Meals</a>
+      <a href="index.html#about">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-cta" data-wa-link data-wa-message="Hello Kampala Bites, I would like to order." target="_blank" rel="noopener" href="#">Order on WhatsApp</a>
+      <button class="burger-btn" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="menu.html">Menu</a>
+      <a href="index.html#popular">Popular Meals</a>
+      <a href="index.html#about">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Full Menu</h1>
+    <p>All prices are sample prices in UGX for this demo site — update with your real menu.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="filters" role="group" aria-label="Filter menu by category">
+      <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="burger">Burger</button>
+      <button class="filter-btn" data-cat="pizza">Pizza</button>
+      <button class="filter-btn" data-cat="chicken">Chicken</button>
+      <button class="filter-btn" data-cat="fries">Fries</button>
+      <button class="filter-btn" data-cat="drinks">Drinks</button>
+    </div>
+
+    <div class="menu-category" data-cat="burger" id="burger">
+      <h2>Burger</h2>
+      <div class="meal-grid">
+        <div class="meal-card" data-name="Classic Cheeseburger" data-price="9000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Classic cheeseburger" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Classic Cheeseburger</h3><p class="desc">Beef patty, melted cheese, fresh toppings.</p><div class="meal-price">UGX 9,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Double Beef Burger" data-price="13000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Double beef burger" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Double Beef Burger</h3><p class="desc">Two beef patties, double cheese.</p><div class="meal-price">UGX 13,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Chicken Burger" data-price="8500">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Chicken burger" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Chicken Burger</h3><p class="desc">Crispy chicken fillet, lettuce, mayo.</p><div class="meal-price">UGX 8,500</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Burger + Fries Combo" data-price="12000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Burger and fries combo" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Burger + Fries Combo</h3><p class="desc">Classic cheeseburger with a side of fries.</p><div class="meal-price">UGX 12,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="pizza" id="pizza">
+      <h2>Pizza</h2>
+      <div class="meal-grid">
+        <div class="meal-card" data-name="Margherita Pizza (Small)" data-price="15000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1671572580758-fd91620a1c6d?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Margherita pizza" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Margherita Pizza</h3><p class="desc">Small pizza with tomato, mozzarella, basil.</p><div class="meal-price">UGX 15,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Pepperoni Pizza (Medium)" data-price="22000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1671572580758-fd91620a1c6d?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Pepperoni pizza" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Pepperoni Pizza</h3><p class="desc">Medium pizza, loaded with pepperoni and cheese.</p><div class="meal-price">UGX 22,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Meat Lovers Pizza (Large)" data-price="28000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1671572580758-fd91620a1c6d?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Meat lovers pizza" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Meat Lovers Pizza</h3><p class="desc">Large pizza with a mix of meat toppings.</p><div class="meal-price">UGX 28,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Extra Topping" data-price="2000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1671572580758-fd91620a1c6d?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Pizza with extra toppings" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Extra Topping</h3><p class="desc">Add an extra topping to any pizza.</p><div class="meal-price">UGX 2,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="chicken" id="chicken">
+      <h2>Chicken</h2>
+      <div class="meal-grid">
+        <div class="meal-card" data-name="Roast Chicken (Quarter)" data-price="12000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1616401616927-3c81de22dfa8?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Roast chicken quarter" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Roast Chicken (Quarter)</h3><p class="desc">Oven-baked, juicy quarter chicken.</p><div class="meal-price">UGX 12,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Roast Chicken (Half)" data-price="20000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1616401616927-3c81de22dfa8?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Roast chicken half" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Roast Chicken (Half)</h3><p class="desc">Half a roast chicken, great for sharing.</p><div class="meal-price">UGX 20,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Grilled Chicken Wrap" data-price="8000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1616401616927-3c81de22dfa8?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Grilled chicken wrap" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Grilled Chicken Wrap</h3><p class="desc">Grilled chicken and fresh veg, wrapped.</p><div class="meal-price">UGX 8,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Chicken Nuggets (6pc)" data-price="7000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1616401616927-3c81de22dfa8?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Chicken nuggets" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Chicken Nuggets (6pc)</h3><p class="desc">Crispy breaded chicken nuggets.</p><div class="meal-price">UGX 7,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="fries" id="fries">
+      <h2>Fries</h2>
+      <div class="meal-grid">
+        <div class="meal-card" data-name="French Fries (Regular)" data-price="4000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1615485290836-4ebcebf44aaf?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Regular french fries" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>French Fries (Regular)</h3><p class="desc">Crispy golden fries, regular portion.</p><div class="meal-price">UGX 4,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="French Fries (Large)" data-price="6000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1615485290836-4ebcebf44aaf?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Large french fries" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>French Fries (Large)</h3><p class="desc">Crispy golden fries, large portion.</p><div class="meal-price">UGX 6,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Cheesy Fries" data-price="7500">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1615485290836-4ebcebf44aaf?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Cheesy fries" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Cheesy Fries</h3><p class="desc">Fries topped with melted cheese sauce.</p><div class="meal-price">UGX 7,500</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" data-cat="drinks" id="drinks">
+      <h2>Drinks</h2>
+      <div class="meal-grid">
+        <div class="meal-card" data-name="Fresh Orange Juice" data-price="3000">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1618046364546-81e9d03d39a6?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Fresh orange juice" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Fresh Orange Juice</h3><p class="desc">Freshly squeezed, chilled.</p><div class="meal-price">UGX 3,000</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Soda" data-price="2500">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1618046364546-81e9d03d39a6?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Chilled soda" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Soda</h3><p class="desc">Chilled soft drink.</p><div class="meal-price">UGX 2,500</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Iced Tea" data-price="2500">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1618046364546-81e9d03d39a6?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Iced tea" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Iced Tea</h3><p class="desc">Chilled, lightly sweetened iced tea.</p><div class="meal-price">UGX 2,500</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+        <div class="meal-card" data-name="Bottled Water" data-price="1500">
+          <div class="meal-thumb"><img src="https://images.unsplash.com/photo-1618046364546-81e9d03d39a6?fm=jpg&q=80&w=600&auto=format&fit=crop" alt="Bottled water" referrerpolicy="no-referrer" loading="lazy"></div>
+          <div class="meal-body"><h3>Bottled Water</h3><p class="desc">Still water, 500ml.</p><div class="meal-price">UGX 1,500</div>
+            <div class="meal-actions"><div class="qty-control"><button class="qty-minus" aria-label="Decrease quantity">−</button><span class="qty-value">0</span><button class="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-btn">Order</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="sample-note">All prices shown are sample prices for this demo — update with your real menu. Photos are representative free-license stock images.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="foot-brand">Kampala Bites</div>
+      <p style="margin-top:10px; max-width:32ch; opacity:0.75; font-size:0.92rem;">Good food, delivered hot across Kampala and Wakiso.</p>
+    </div>
+    <div class="foot-links">
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a data-wa-link data-wa-message="Hello Kampala Bites, I would like to order." target="_blank" rel="noopener" href="#">WhatsApp Us</a>
+      <a data-mail-link data-email-text href="#"></a>
+    </div>
+  </div>
+  <div class="foot-bottom">© 2026 Kampala Bites. All rights reserved. Stock photos via Unsplash (free license).</div>
+</footer>
+
+<div class="cart-bar" id="cartBar">
+  <div class="wrap">
+    <div class="cart-summary"><b id="cartCount">0</b> item(s) selected</div>
+    <div class="cart-actions">
+      <input type="text" id="deliveryLocationInput" placeholder="Delivery location" aria-label="Delivery location">
+      <button class="btn btn-primary" id="cartWhatsAppBtn" style="border:none;">Send Order on WhatsApp</button>
+    </div>
+  </div>
+</div>
+
+<a class="float-wa" data-wa-link data-wa-message="Hello Kampala Bites, I would like to order." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" href="#">
+  <svg width="24" height="24" viewBox="0 0 26 26" aria-hidden="true"><path d="M2 24l2.2-6.4A9.5 9.5 0 112 24z" fill="#1A1108"/></svg>
+</a>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
